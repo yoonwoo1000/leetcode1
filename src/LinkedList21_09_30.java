@@ -30,12 +30,10 @@ public class LinkedList21_09_30 {
         }
     }
 
-1 2 3 4 5 -> null
-
-        2 3 4 5
 
 
-        import java.util.*;
+
+
     public class Solution {
         public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
             HashSet<ListNode> set = new HashSet<>();
