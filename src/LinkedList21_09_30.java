@@ -82,9 +82,9 @@ public class LinkedList21_09_30 {
                 if(a == null && b == null) {
                     return null;
                 } else if(a == null) {
-                    a = headB
+                    a = headB;
                 } else if(b == null) {
-                    b = headA
+                    b = headA;
                 } else {
                     a = a.next;
                     b = b.next;
@@ -97,7 +97,7 @@ public class LinkedList21_09_30 {
 
             }
 
-            return a
+            return a;
         }
     }
     // JE
